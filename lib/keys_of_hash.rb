@@ -6,6 +6,7 @@ class Hash
     arguments.each do |animal, location|
       if arguments.include?(animal) 
         animal_list << animal 
+      end 
       binding.pry 
     end 
     return []
