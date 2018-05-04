@@ -6,7 +6,7 @@ class Hash
     arguments.each do |location|
       self.each do |animal, country|
         binding.pry 
-        if arguments.include?(location) 
+        if country == location 
           animal_list << location 
         end 
       end 
