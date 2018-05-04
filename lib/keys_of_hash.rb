@@ -5,12 +5,12 @@ class Hash
     animal_list = []
     arguments.each do |location|
       self.each do |animal, country|
-      binding.pry 
-      if arguments.include?(location) 
+        binding.pry 
+        if arguments.include?(location) 
           animal_list << location 
-          end 
         end 
       end 
+    end 
     return animal_list
   end
 end
