@@ -7,7 +7,7 @@ class Hash
       if arguments.include?(animal) 
         animal_list << animal 
       end 
-      binding.pry 
+      
     end 
     return []
   end
