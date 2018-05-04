@@ -7,7 +7,7 @@ class Hash
       self.each do |animal, country|
         binding.pry 
         if country == location 
-          animal_list << location 
+          animal_list << animal  
         end 
       end 
     end 
