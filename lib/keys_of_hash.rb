@@ -4,7 +4,7 @@ class Hash
   def keys_of(*arguments)
     animal_list = []
     arguments.each do |location|
-      binding.pry 
+     
       if arguments.include?(location) 
         animal_list << location 
       end 
