@@ -3,10 +3,10 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
     animal_list = []
-    arguments.each do |animal, location|
+    arguments.each do |location|
       binding.pry 
-      if arguments.include?(animal) 
-        animal_list << animal 
+      if arguments.include?(location) 
+        animal_list << location 
       end 
       
     end 
