@@ -5,7 +5,6 @@ class Hash
     animal_list = []
     arguments.each do |location|
       self.each do |animal, country|
-        binding.pry 
         if country == location 
           animal_list << animal  
         end 
