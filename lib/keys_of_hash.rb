@@ -7,9 +7,9 @@ class Hash
       self.each do |animal, country|
       binding.pry 
       if arguments.include?(location) 
-        animal_list << location 
+          animal_list << location 
+          end 
         end 
-      end 
       end 
     return animal_list
   end
