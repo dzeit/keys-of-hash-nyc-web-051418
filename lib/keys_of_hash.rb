@@ -9,6 +9,6 @@ class Hash
       end 
       
     end 
-    return []
+    return animal_list
   end
 end
