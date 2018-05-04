@@ -8,9 +8,9 @@ class Hash
       binding.pry 
       if arguments.include?(location) 
         animal_list << location 
+        end 
       end 
-      
-    end 
+      end 
     return animal_list
   end
 end
